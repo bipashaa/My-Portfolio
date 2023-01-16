@@ -1,0 +1,47 @@
+.container {
+	padding: 2rem 1.5rem;
+	margin: auto;
+	margin-bottom: 5rem;
+	width: 40rem;
+}
+
+h3 {
+	padding: 0.6rem 0.6rem 0.6rem 0;
+	font-weight: 900;
+	font-size: 2rem;
+	color: #11999e;
+}
+
+.aboutContent {
+	padding: 0rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 40rem;
+	margin-bottom: 0;
+	position: relative;
+}
+
+.contentText {
+	color: #1c283a;
+	width: 25rem;
+}
+
+.highlight {
+	color: darkcyan;
+}
+
+.profile {
+	width: 13rem;
+	height: 13rem;
+}
+
+.profileBorder {
+	width: 13rem;
+	height: 13rem;
+	border: 0.1rem solid darkcyan;
+	position: absolute;
+	z-index: -1;
+	right: -2rem;
+	bottom: 3rem;
+}

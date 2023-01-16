@@ -1,0 +1,37 @@
+.header {
+	width: 100%;
+	display: flex;
+	margin-bottom: 8rem;
+}
+
+.logo-div {
+	display: flex;
+	flex: 1;
+	width: fit-content;
+	text-align: center;
+}
+
+.links {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.menuButton {
+	text-decoration: none;
+	color: #11999e;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.menuButton:hover {
+	color: #085e7d;
+}
+
+.logo {
+	width: 4rem;
+	margin-left: 2rem;
+	padding: 0.4rem;
+	cursor: pointer;
+}
