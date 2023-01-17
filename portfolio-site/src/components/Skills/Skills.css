@@ -13,3 +13,75 @@
 	color: #11999e;
 	top: -40px;
 }
+
+.skill-name-percent {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.skill-name-percent h6 {
+	margin: 0;
+}
+
+.skill-name-percent h2 {
+	font-size: 1rem !important;
+}
+
+.progress-bar-container h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #11999e;
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin: 0;
+}
+
+.progress-bar-container {
+	margin-bottom: 2rem;
+}
+
+.progress-bar {
+	width: 100%;
+	height: 5px;
+	margin-top: 10px;
+	border-radius: 5px;
+	background-color: #aadede;
+}
+
+.percentage {
+	display: block;
+	height: 100%;
+	background-color: #085e7d;
+	border-radius: 5px;
+	animation: progress 1500ms ease-in 1;
+}
+
+.html {
+	width: 99%;
+}
+
+.css {
+	width: 85%;
+}
+
+.js {
+	width: 80%;
+}
+
+.java {
+	width: 85%;
+}
+
+.spring {
+	width: 70%;
+}
+
+.sql {
+	width: 90%;
+}
+
+@keyframes progress {
+	from {
+		width: 0;
+	}
+}
