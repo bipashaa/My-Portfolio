@@ -1,12 +1,6 @@
 import "./Experience.css";
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import Divider from "@material-ui/core/Divider";
-import ListItemText from "@material-ui/core/ListItemText";
-import ListItemAvatar from "@material-ui/core/ListItemAvatar";
-import Avatar from "@material-ui/core/Avatar";
 import Typography from "@material-ui/core/Typography";
 
 import CTS from "../../resources/cts.png";
@@ -18,8 +12,7 @@ const useStyles = makeStyles((theme) => ({
 		width: "100%",
 		alignItems: "flex-start",
 	},
-
-	imgLogo: {
+	orgLogo: {
 		width: "3rem",
 	},
 	designation: {
@@ -51,27 +44,27 @@ export default function Experience() {
 					{/* CTS Section */}
 
 					<div id="CTS">
-						<div className="imageAndHeader">
+						<div className="org-logo-name-div">
 							<img
 								src={CTS}
 								alt="Cognizant Logo"
-								className={classes.imgLogo}
+								className={classes.orgLogo}
 							/>
-							<h5 className="orgName">Cognizant</h5>
+							<h5 className="org-name">Cognizant</h5>
 						</div>
 
-						<div class="step completed">
+						<div className="step">
 							{/* Stepper */}
 
-							<div class="v-stepper">
-								<div class="circle"></div>
-								<div class="line"></div>
+							<div className="v-stepper">
+								<div className="circle"></div>
+								<div className="line"></div>
 							</div>
 
-							<div class="contentHeader">
+							<div className="exp-content">
 								{/* CTS FTE Details */}
 
-								<div className="descHeader">
+								<div className="designation-header">
 									<Typography className={classes.designation}>
 										Programmer Analyst Trainee
 									</Typography>
@@ -80,7 +73,7 @@ export default function Experience() {
 									</Typography>
 								</div>
 
-								<ul className="expUl">
+								<ul className="exp-details">
 									<li>
 										<Typography className={classes.desc}>
 											Joined as a Front-end Developer.
@@ -96,15 +89,15 @@ export default function Experience() {
 							</div>
 						</div>
 
-						<div class="step">
-							<div class="v-stepper">
+						<div className="step">
+							<div className="v-stepper">
 								<div class="circle"></div>
 							</div>
 
-							<div class="contentHeader">
+							<div className="exp-content">
 								{/* CTS Intern Details */}
 
-								<div className="descHeader">
+								<div className="designation-header">
 									<Typography className={classes.designation}>
 										Intern
 									</Typography>
@@ -113,7 +106,7 @@ export default function Experience() {
 									</Typography>
 								</div>
 
-								<ul className="expUl">
+								<ul className="exp-details">
 									<li>
 										<Typography className={classes.desc}>
 											Trained in technologies like Spring
@@ -137,13 +130,13 @@ export default function Experience() {
 					{/* HRC Section */}
 
 					<div id="HRC">
-						<div className="imageAndHeader">
+						<div className="org-logo-name-div">
 							<img
 								src={HRC}
 								alt="HRC Logo"
-								className={classes.imgLogo}
+								className={classes.orgLogo}
 							/>
-							<h5 className="orgName">HighRadius</h5>
+							<h5 className="org-name">HighRadius</h5>
 						</div>
 
 						<div class="step completed">
@@ -152,8 +145,8 @@ export default function Experience() {
 								<div class="line"></div>
 							</div>
 
-							<div class="contentHeader">
-								<div className="descHeader">
+							<div class="exp-content">
+								<div className="designation-header">
 									<Typography className={classes.designation}>
 										Software Engineer Intern
 									</Typography>
@@ -162,7 +155,7 @@ export default function Experience() {
 									</Typography>
 								</div>
 
-								<ul className="expUl">
+								<ul className="exp-details">
 									<li>
 										<Typography className={classes.desc}>
 											Developed web application and worked
@@ -185,8 +178,8 @@ export default function Experience() {
 								<div class="circle"></div>
 							</div>
 
-							<div class="contentHeader">
-								<div className="descHeader">
+							<div class="exp-content">
+								<div className="designation-header">
 									<Typography className={classes.designation}>
 										Software Engineer Intern
 									</Typography>
@@ -195,7 +188,7 @@ export default function Experience() {
 									</Typography>
 								</div>
 
-								<ul className="expUl">
+								<ul className="exp-details">
 									<li>
 										<Typography className={classes.desc}>
 											Developed web application and worked
@@ -217,13 +210,13 @@ export default function Experience() {
 					{/* Startup Section */}
 
 					<div id="Startup">
-						<div className="imageAndHeader">
+						<div className="org-logo-name-div">
 							<img
 								src={Startup}
 								alt="Startup Logo"
-								className={classes.imgLogo}
+								className={classes.orgLogo}
 							/>
-							<h5 className="orgName">StartUp Inc.</h5>
+							<h5 className="org-name">StartUp Inc.</h5>
 						</div>
 
 						<div class="step completed">
@@ -231,8 +224,8 @@ export default function Experience() {
 								<div class="circle"></div>
 							</div>
 
-							<div class="contentHeader">
-								<div className="descHeader">
+							<div class="exp-content">
+								<div className="designation-header">
 									<Typography className={classes.designation}>
 										Frontend Developer Intern
 									</Typography>
@@ -241,7 +234,7 @@ export default function Experience() {
 									</Typography>
 								</div>
 
-								<ul className="expUl">
+								<ul className="exp-details">
 									<li>
 										<Typography className={classes.desc}>
 											Learnt and developed front-end

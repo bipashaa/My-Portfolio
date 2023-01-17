@@ -11,7 +11,14 @@
 	text-align: center;
 }
 
-.links {
+.logo {
+	width: 4rem;
+	margin-left: 2rem;
+	padding: 0.4rem;
+	cursor: pointer;
+}
+
+.links-div {
 	display: flex;
 	flex: 1;
 	align-items: center;
@@ -28,11 +35,4 @@
 
 .menuButton:hover {
 	color: #085e7d;
-}
-
-.logo {
-	width: 4rem;
-	margin-left: 2rem;
-	padding: 0.4rem;
-	cursor: pointer;
 }

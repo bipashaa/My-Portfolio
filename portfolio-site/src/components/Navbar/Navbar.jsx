@@ -9,7 +9,7 @@ export default function Navbar() {
 				<img src={Logo} className="logo" alt="Portfolio logo" />
 			</div>
 
-			<div className="links">
+			<div className="links-div">
 				<a className="menuButton">
 					<p className="menuButton">Home</p>
 				</a>

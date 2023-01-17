@@ -1,42 +1,24 @@
-.container {
-	padding: 2rem 1.5rem;
-	margin: auto;
-	margin-bottom: 5rem;
-	width: 40rem;
-}
-
-h3 {
-	padding: 0.6rem 0.6rem 0.6rem 0;
-	font-weight: 900;
-	font-size: 2rem;
-	color: #11999e;
-}
-
-.aboutContent {
+.about-content-div {
 	padding: 0rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	width: 40rem;
-	margin-bottom: 0;
 	position: relative;
 }
 
-.contentText {
+.about-content-text {
 	color: #1c283a;
 	width: 25rem;
+	text-align: justify;
 }
 
-.highlight {
-	color: darkcyan;
-}
-
-.profile {
+.img-profile {
 	width: 13rem;
 	height: 13rem;
 }
 
-.profileBorder {
+.img-profile-border {
 	width: 13rem;
 	height: 13rem;
 	border: 0.1rem solid darkcyan;

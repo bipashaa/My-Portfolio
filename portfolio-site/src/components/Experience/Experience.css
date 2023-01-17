@@ -3,7 +3,7 @@
 	margin-bottom: 3%;
 }
 
-.imageAndHeader {
+.org-logo-name-div {
 	padding: 0rem;
 	display: flex;
 	align-items: center;
@@ -12,14 +12,14 @@
 	position: relative;
 }
 
-.orgName {
+.org-name {
 	color: #085e7d;
 	font-size: 1.6rem;
 	margin: 0;
 	margin-left: 1rem;
 }
 
-.descHeader {
+.designation-header {
 	margin-left: 2rem;
 }
 
@@ -33,11 +33,9 @@
 
 .v-stepper {
 	position: relative;
-	/*   visibility: visible; */
 	margin-left: 2%;
 }
 
-/* regular step */
 .step .circle {
 	background-color: #777a7d;
 	border-radius: 100%;
@@ -47,21 +45,12 @@
 }
 
 .step .line {
-	/*   height: 120px; */
 	height: 95%;
 	left: 4px;
 	position: absolute;
-}
-
-.step.completed .line {
 	border-left: 3px solid #777a7d;
 }
 
-.step:last-child .line {
-	border-left: 3px solid white;
-	z-index: -1; /* behind the circle to completely hide */
-}
-
-.expUl {
+.exp-details {
 	margin-left: 1.5rem;
 }
