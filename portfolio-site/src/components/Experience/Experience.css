@@ -1,0 +1,67 @@
+#CTS,
+#HRC {
+	margin-bottom: 3%;
+}
+
+.imageAndHeader {
+	padding: 0rem;
+	display: flex;
+	align-items: center;
+	width: 40rem;
+	margin: 0;
+	position: relative;
+}
+
+.orgName {
+	color: #085e7d;
+	font-size: 1.6rem;
+	margin: 0;
+	margin-left: 1rem;
+}
+
+.descHeader {
+	margin-left: 2rem;
+}
+
+.step {
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-color: cream;
+}
+
+.v-stepper {
+	position: relative;
+	/*   visibility: visible; */
+	margin-left: 2%;
+}
+
+/* regular step */
+.step .circle {
+	background-color: #777a7d;
+	border-radius: 100%;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+}
+
+.step .line {
+	/*   height: 120px; */
+	height: 95%;
+	left: 4px;
+	position: absolute;
+}
+
+.step.completed .line {
+	border-left: 3px solid #777a7d;
+}
+
+.step:last-child .line {
+	border-left: 3px solid white;
+	z-index: -1; /* behind the circle to completely hide */
+}
+
+.expUl {
+	margin-left: 1.5rem;
+}

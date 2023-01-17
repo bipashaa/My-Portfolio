@@ -10,12 +10,26 @@ export default function Navbar() {
 			</div>
 
 			<div className="links">
-				<a className="menuButton">Home</a>
-				<a className="menuButton">About</a>
-				<a className="menuButton">Experience</a>
-				<a className="menuButton">Skills</a>
-				<a className="menuButton">Projects</a>
-				<a className="menuButton">Contact Me</a>
+				<a className="menuButton">
+					<p className="menuButton">Home</p>
+				</a>
+
+				<a className="menuButton">
+					<p className="menuButton">About</p>
+				</a>
+				<a className="menuButton">
+					<p className="menuButton">Experience</p>
+				</a>
+				<a className="menuButton">
+					<p className="menuButton">Skills</p>
+				</a>
+				<a className="menuButton">
+					<p className="menuButton">Projects</p>
+				</a>
+
+				<a className="menuButton">
+					<p className="menuButton">Contact Me</p>
+				</a>
 			</div>
 		</div>
 	);

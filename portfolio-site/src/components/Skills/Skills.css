@@ -1,0 +1,15 @@
+.skill {
+	padding: 0;
+}
+.skill li {
+	margin-bottom: 70px;
+	height: 6px;
+	list-style: none;
+}
+
+.skill li p {
+	position: relative;
+	font-size: 14px;
+	color: #11999e;
+	top: -40px;
+}
